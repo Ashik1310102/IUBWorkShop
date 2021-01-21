@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#bc1dda1d"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage">
+
+    <EditText
+        android:id="@+id/LgEtEmail"
+        android:inputType="textEmailAddress"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:hint="Email"
+        android:textColorHint="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/LgEtPassword"
+        android:inputType="textPassword"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/LgBtSubmit"
+        android:textSize="30sp"
+        android:text="Submit"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
